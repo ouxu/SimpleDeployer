@@ -34,5 +34,5 @@ http.createServer((req, res) => {
     // console.log(`stderr: ${ stderr }`);
     res.end('Done!');
   });
-  console.log('Success   '+ taskName +' '+ new Date());
+  console.log('Success '+ taskName);
 }).listen(port);
